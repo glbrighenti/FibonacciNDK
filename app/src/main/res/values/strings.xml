@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fibonacci Native X Java</string>
+    <string name="action_settings">Settings</string>
+    <string name="dialog_title">Processing...</string>
+    <string name="dialog_message">Please wait</string>
+    <string name="input_error">Number must be greater than 0</string>
+    <string name="message_success">Fibonacci executed successfully\nTime difference:" %dms</string>
+</resources>
