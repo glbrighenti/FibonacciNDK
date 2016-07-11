@@ -52,11 +52,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 n = Long.parseLong(textNumberToFib.getText().toString());
-                if (n < 0) {
+                if (n <= 0) {
                     Snackbar.make(view, R.string.input_error, Snackbar.LENGTH_LONG)
                             .setAction("Action", null).show();
+                }else{
+                    startFibCalculations(n-1);
                 }
-                startFibCalculations(n-1);
+
 
             }
         });
