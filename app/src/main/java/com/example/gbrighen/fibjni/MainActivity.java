@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                     Snackbar.make(view, R.string.input_error, Snackbar.LENGTH_LONG)
                             .setAction("Action", null).show();
                 }
-                startFibCalculations(n + 1);
+                startFibCalculations(n-1);
 
             }
         });
